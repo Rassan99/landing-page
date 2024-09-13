@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(196, 171, 199);
+  }
+  
+  .hero-container {
+    display: flex;
+    width: 100%;
+  }
+  
+  .hero-text-container {
+    flex: 0 0 calc(100% - 350px);
+    max-width: calc(100% - 350px);
+  }
+  
+  p {
+    margin: 0;
+  }
+  
+  p.intro-text {
+    color: #F9FAF8;
+    font-weight: bold;
+    font-size: 48px;
+  }
+  
+  p.secondary-text {
+    color: #e5e7eb;
+    font-size: 18px;
+  }
+  
+  .image-container {
+    height: 72px;
+    padding: 10px 0;
+  }
+  
+  img {
+    width: 350px;
+    height: 150px;
+  }
