@@ -33,16 +33,16 @@ a {
   }
 .container{
     display: flex;
-    /* flex-direction: column;*/
-    justify-content: space-evenly;
-    color: #CCB9A7;
-    background-color:#76726F;
-    padding: 32px;
-    width: 100%;
+    flex-direction: column;
+align-items: center;
+color: #CCB9A7;
+background-color:#76726F;
+padding-bottom: 20px;
+
   }
   button{
     width: fit-content;
-    
+
   }
 .boldd{
     font-size: 40px;
@@ -51,12 +51,7 @@ a {
 #jacket{
     height: 303px;
 }
-#jj{
-  flex:  0 calc(100% - 350px);
-  max-width: calc(100% - 350px);
-  align-items: center; 
- 
-}
+
 
 /* CSS */
 .button-54 {
